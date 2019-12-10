@@ -1,12 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router} from 'react-router-dom';
+import Routers from  './Routers';
 
 function App() {
   return (
-    <div className="App">
-      going to learn redux and saga
-    </div>
+    <Router>
+      <div>
+        <Routers>
+        </Routers>
+      </div>
+    </Router>
   );
 }
 
